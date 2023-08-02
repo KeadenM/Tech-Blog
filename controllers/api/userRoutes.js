@@ -1,6 +1,6 @@
 const router = require('express').Router();
 //import models (user in particular)
-const User = require('../../models/User')
+const User = require('../../models/user')
 
 router.post('/signup', async (req, res) => {
     try {
