@@ -50,14 +50,14 @@
   </header>
   <main>
     {{#if isMainPage}}
-    {{>posts}}
+    {{posts}}
     {{/if}}
     {{#if isLoginPage}}
-    {{>login}}
+    {{login}}
     <script src="./login.js"></script>
     {{/if}}
     {{#if loggedin}}
-    {{>posts}}
+    {{posts}}
     {{/if}}
   </main>
   <footer>
